@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     var searchGifs = {
-        searchTerms: ["Cats", "dogs", "snakes", "spongebob", "nicholas cage", "batman", "spiderman", "hockey", "aww"],
+        searchTerms: ["cats", "dogs", "snakes", "spongebob", "nicholas cage", "batman", "spiderman", "hockey", "aww"],
         createButtons: function() {
             for (var i = 0; i < searchGifs.searchTerms.length; i++) {
                 var newBttn = $('<button>');
